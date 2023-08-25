@@ -1,0 +1,147 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   border: none;
+   font-family: 'Overpass', sans-serif;
+}
+
+body{
+   background-color: hsl(216, 12%, 8%);
+}
+
+.attribution { 
+   font-size: 11px; 
+   text-align: center; 
+}
+
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+}
+
+.rating, .thanks{
+   width: 300px;
+   margin: 90px auto;
+   padding: 20px;
+   background-color: hsl(213, 19%, 18%);
+   border-radius: 10px;
+}
+
+.thanks{
+   display: none;
+   text-align: center;
+}
+
+.thanks img{
+   width: 150px;
+   margin: 13px 0;
+}
+
+.selection{
+   padding: 5px;
+   border-radius: 10px;
+   margin: 10px auto;
+   background-color: hsl(216, 12%, 54%);
+   width: 150px;
+}
+
+.selection h3{
+   color: hsl(25, 97%, 53%);
+   font-size: 13px;
+   font-weight: lighter;
+}
+
+.thanks h2{
+   color: #fff;
+   font-size: 23px;
+   margin: 15px 0 ;
+   font-weight: 700;
+}
+
+.thanks p{
+   color: hsl(217, 12%, 63%);
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.rating{
+   text-align: start;
+}
+
+.star{
+   background-color: hsl(216, 12%, 54%);
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px 0;
+}
+
+.rating h2{
+   font-size: 23px;
+   color: hsl(0, 0%, 100%);
+   margin: 10px 0;
+   font-weight: 700;
+}
+
+.rating p{
+   font-size: 15px;
+   color: hsl(217, 12%, 63%);
+   margin-bottom: 18px;
+   font-weight: 400;
+}
+
+.button{
+   display: flex;
+   justify-content: space-around;
+}
+
+.buttons{
+   width: 40px;
+   height: 40px;
+   background-color: hsl(216, 12%, 54%);
+   color: hsl(217, 12%, 63%);
+   font-size: 15px;
+   font-weight: 400;
+   border-radius: 50%;
+   margin-bottom: 35px;
+}
+
+button {
+   width: 100%;
+   border-radius: 30px;
+   height: 35px;
+   margin-bottom: 10px;
+   background-color: hsl(25, 97%, 53%);
+   color: #fff;
+   font-size: 15px;
+   font-weight: 400;
+   cursor: pointer;
+}
+
+.rating button :hover{
+   background-color: #fff;
+   color: hsl(25, 97%, 53%);
+}
+
+#btns:hover{
+   background-color: hsl(25, 97%, 53%);
+   color: #fff;
+}
+
+.selected{
+   background-color: hsl(217, 12%, 63%);
+   color: #fff;
+}
+
+#submit:hover{
+   background-color: #fff;
+   color: hsl(25, 97%, 53%);
+   border: 2px solid hsl(25, 97%, 53%);
+   transform: scale(1.1);
+   transition: .3s ease-in-out;
+}
+
+
